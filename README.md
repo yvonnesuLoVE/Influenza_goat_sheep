@@ -31,23 +31,10 @@ To address this gap, we analyzed serum samples collected from goats and sheep be
 ## Repository Contents
 - `Goat_Sheep_AIV_serology_analysis.R`: complete analysis script. It covers data cleaning, exclusion of sera with MFI above 8,000 to more than one antigen, expectation-maximization (EM) classification of MFI values, seroprevalence by district, co-reactivity between antigens, heatmaps, statistical comparisons between goats and sheep, agreement between multiplex MFI and ELISA, and dose-response analysis.
 
-## Usage
-1. Place the input files in a folder named `input` (or change `input_dir` at the top of the script):
-   - `AllSamples.xlsx` (raw MFI values)
-   - `AllSamples_PosCtl.xlsx` (control sera)
-   - `ELISA_H5N1.xlsx`, `ELISA_N1.xlsx`, `ELISA_N2.xlsx`
-   - `Dose_Response.xlsx`
-2. Run the script in R. Figures are created as R objects and statistical results are printed to the console.
-
-R packages required: mclust, ggplot2, dplyr, tidyr, openxlsx, patchwork, ggh4x, ggnewscale, ggrepel, ggbreak, PMCMRplus, ComplexHeatmap, circlize, viridisLite, fmsb, scales, stringr.
-
 ---
 
 ## Implications
 The findings identify goats and sheep as hosts with evidence of exposure to avian influenza viruses, including HPAI H5, and reveal gaps in our understanding of influenza virus transmission and adaptation. These results highlight the need to include small ruminants in influenza surveillance to enhance pandemic preparedness.
-
-## Data and Code Availability
-All scripts, processed data tables, and figure-generation code used in this study are available at Zenodo (XXXXXX) and mirrored on GitHub (XXXXXX).
 
 ## Citation
 If you use this repository in your research, please cite:
